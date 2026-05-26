@@ -1,8 +1,10 @@
 import './App.css';
 import React from 'react';
+import MagicPopup from './projects/11-magic-popup-app/MagicPopupApp';
 
 // import Homepage from './projects/00-homepage/Homepage';
-import HiddenSearchBarApp from './projects/10-hiidden-search-bar/HiddenSearchBarApp';
+// import HiddenSearchBarApp from './projects/10-hiidden-search-bar/HiddenSearchBarApp';
+import MagicPopupApp from './projects/11-magic-popup-app/MagicPopupApp';
 
 function App() {
   return (
@@ -21,7 +23,8 @@ function App() {
 
       {/* <Homepage /> */}
 
-      <HiddenSearchBarApp />
+      {/* <HiddenSearchBarApp /> */}
+      <MagicPopupApp />
 
     </div>
   );
